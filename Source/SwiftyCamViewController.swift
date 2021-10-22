@@ -268,7 +268,7 @@ open class SwiftyCamViewController: UIViewController {
 
 	/// Video Device variable
 
-	fileprivate var videoDevice                  : AVCaptureDevice?
+	public var videoDevice                       : AVCaptureDevice?
 
 	/// PreviewView for the capture session
 
